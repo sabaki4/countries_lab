@@ -8,7 +8,7 @@ const Country = ({country, moveCountryToVisitedList}) => {
         <>
         <p>Name: {country.name.common}</p>
         <p>Capital: {country.capital}</p>
-        <button onClick={handleClick()}>Visited</button>
+        <button onClick={handleClick}>Visited</button>
         </>
     
       );
